@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace ECS.Refac
 {
-    interface ITempSensor
+    public interface ITempSensor
     {
+        int GetTemp();
+        bool RunSelfTest();
     }
 }

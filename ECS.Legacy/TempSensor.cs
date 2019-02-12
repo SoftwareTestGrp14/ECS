@@ -4,6 +4,7 @@ namespace ECS.Refac
 {
 
     internal class TempSensor
+
     {
         private Random gen = new Random();
 
