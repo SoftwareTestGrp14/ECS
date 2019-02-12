@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{47D8DA00-C63B-4048-9C13-3362806370DE}</ProjectGuid>
+    <ProjectGuid>{4C7A3607-3C29-4FFC-9ED6-91FDF4D2877D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ECS.Unit.Test</RootNamespace>
-    <AssemblyName>ECS.Unit.Test</AssemblyName>
+    <RootNamespace>ECS.Unit</RootNamespace>
+    <AssemblyName>ECS.Unit</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -48,8 +48,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ECSUnitTest.cs" />
-    <Compile Include="FakeTempSensor.cs" />
     <Compile Include="FakeHeater.cs" />
+    <Compile Include="FakeTempSensor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

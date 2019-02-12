@@ -15,7 +15,7 @@ namespace ECS.Unit.Test
         public int GetTemp()
         {
             GetTempNo++;
-            return 0;
+            return 20;
         }
 
         public bool RunSelfTest()

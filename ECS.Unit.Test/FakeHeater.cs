@@ -9,9 +9,16 @@ namespace ECS.Unit.Test
 {
     public class FakeHeater : IHeater
     {
-        public int TurnOnNo { get; private set; } = 0;
-        public int TurnOffNo { get; private set; } = 0;
-        public int RunTestNo { get; private set; } = 0;
+        public int TurnOnNo { get; private set; }
+        public int TurnOffNo { get; private set; }
+        public int RunTestNo { get; private set; }
+
+        public FakeHeater()
+        {
+            TurnOnNo = 0;
+            TurnOffNo = 0;
+            RunTestNo = 0;
+        }
 
         public void TurnOn()
         {
