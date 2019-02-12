@@ -7,30 +7,21 @@ using ECS.Refac;
 
 namespace ECS.Unit.Test
 {
-    public class FakeHeater : IHeater
+    public class FakeTempSensor : ITempSensor
     {
-        public int TurnOnNo { get; private set; } = 0;
-        public int TurnOffNo { get; private set; } = 0;
+        public int GetTempNo { get; private set; } = 0;
         public int RunTestNo { get; private set; } = 0;
 
-        public void TurnOn()
+        public int GetTemp()
         {
-            ++TurnOnNo;
-        }
-
-        public void TurnOff()
-        {
-            ++TurnOffNo;
+            GetTempNo++;
+            return 0;
         }
 
         public bool RunSelfTest()
         {
-            ++RunTestNo;
+            RunTestNo++;
             return true;
-        }    
+        }
     }
-
-
-
-
 }
