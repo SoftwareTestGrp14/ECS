@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ECS.Refac
+namespace ECS.Legacy
 {
 
     internal class TempSensor
