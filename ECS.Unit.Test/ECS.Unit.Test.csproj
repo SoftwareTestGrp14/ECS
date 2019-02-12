@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4C7A3607-3C29-4FFC-9ED6-91FDF4D2877D}</ProjectGuid>
+    <ProjectGuid>{C64E00E3-83F2-4E3C-92EE-273550B04447}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ECS.Unit</RootNamespace>
-    <AssemblyName>ECS.Unit</AssemblyName>
+    <RootNamespace>ECS.Unit.Test</RootNamespace>
+    <AssemblyName>ECS.Unit.Test</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
