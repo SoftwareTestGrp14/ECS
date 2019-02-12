@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ECS.Unit.Test
 {
-    public class Class1
+    public class ECSUnitTest
     {
     }
 }
