@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ECSUnitTest.cs" />
     <Compile Include="FakeTempSensor.cs" />
     <Compile Include="FakeHeater.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
