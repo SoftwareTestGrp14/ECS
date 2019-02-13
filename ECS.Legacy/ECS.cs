@@ -1,7 +1,10 @@
-﻿namespace ECS.Legacy
+﻿using System.Dynamic;
+
+namespace ECS.Legacy
 {
     public class ECS
     {
+
         private int _threshold;
         private readonly TempSensor _tempSensor;
         private readonly Heater _heater;
